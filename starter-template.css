@@ -937,3 +937,24 @@ input[type=checkbox] {
   margin-top: -20px;
   padding-right: 10px;
 }
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .top-icons {
+      margin-left: 50px;
+      margin-top: 0;
+      justify-content: center;
+    }
+    .blue-box {
+      height: 60px;
+      background-size: cover;
+    }
+    .top-spacer {
+      height: 20px;
+    }
+    .green-box {
+      transform: translateY(-26px);
+    }
+}
