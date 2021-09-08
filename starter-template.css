@@ -20,6 +20,7 @@ a, a:hover {
   background-image: url("./images/top-bg.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  background-color: rgb(81, 132, 212);
 }
 .top-icons {
   display: flex;
@@ -73,6 +74,7 @@ a, a:hover {
   list-style: none;
   justify-content: center;
   margin-top: 25px;
+  transform: translateX(-20px);
 }
 .nav-icons li {
   margin: 1px;
@@ -180,8 +182,14 @@ a, a:hover {
   background-position: -518px -5px;
   display: flex;
   justify-content: center;
-  margin-left: 11%;
   margin-top: -40px;
+}
+#shadow-box {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  margin-top: 25px;
 }
 .title {
   color: #fe7f13;
@@ -224,7 +232,6 @@ a, a:hover {
 .dashboard {
   background-color: #33cc66;
   margin-top: 20px;
-  height: 90px;
   margin-bottom: 20px;
   border-radius: 5px;
   display: flex;
@@ -937,24 +944,85 @@ input[type=checkbox] {
   margin-top: -20px;
   padding-right: 10px;
 }
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 700px) {
 
-    .top-icons {
-      margin-left: 50px;
-      margin-top: 0;
-      justify-content: center;
-    }
-    .blue-box {
-      height: 60px;
-      background-size: cover;
-    }
-    .top-spacer {
-      height: 20px;
+    .nav-icons a {
+      margin: -15px;
     }
     .green-box {
-      transform: translateY(-26px);
+      height: 120px;
+    }
+    #icon-shadows {
+      display: none;
+    }
+    .triangle {
+      margin-top: -10px;
+    }
+    .dashboard {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .searchbar {
+      padding: 0px;
+      margin-top: -10px;
+      margin: 0% 5%;
+      width: 100%;
+    }
+    .dash-text {
+      margin: 0px;
+      padding: 20px;
+      font-size: 1.7em;
+    }
+    .content-title {
+      font-size: 1.7em;
+    }
+    .pie .container {
+      flex-direction: row;
+      border: none;
+    }
+    #share {
+      margin-bottom: 0;
+    }
+    .checks ul {
+      display: flex;
+      flex-direction: column;
+    }
+    .checks ul li {
+      margin: 0;
+    }
+    .skyblue-box {
+      flex-direction: column;
+    }
+    .section-box {
+      width: 80%;
+      margin: 10%;
+    }
+    .ads {
+      flex-direction: column;
+      margin-left: -10px;
+    }
+    .link-text h5 {
+      font-size: 1.1em;
+    }
+    #twc, #tpr, #tra, #tro {
+      font-size: 1.2em;
+    }
+    .ad-container {
+      width: 280px;
+      height: 160px;
+      margin: 5% 0%;
+    }
+    .banner {
+      transform: translateY(-15px);
+    }
+    .banner-text h3 {
+      font-size: 1.2em;
+    }
+    .banner-text p {
+      font-size: 0.8em;
+    }
+    #footer-support {
+      font-size: 0.8em;
+      transform: translateX(-100px);
     }
 }
