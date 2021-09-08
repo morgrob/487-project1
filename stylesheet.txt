@@ -1,0 +1,407 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-analytics-arrow-grey {
+    width: 17px;
+    height: 18px;
+    background-position: -5px -5px;
+}
+
+.sprite-analytics-arrow-orange {
+    width: 17px;
+    height: 18px;
+    background-position: -32px -5px;
+}
+
+.sprite-analytics-facebook {
+    width: 76px;
+    height: 23px;
+    background-position: -59px -5px;
+}
+
+.sprite-analytics-foursquare {
+    width: 84px;
+    height: 28px;
+    background-position: -145px -5px;
+}
+
+.sprite-analytics-google {
+    width: 71px;
+    height: 28px;
+    background-position: -239px -5px;
+}
+
+.sprite-analytics-twitter {
+    width: 59px;
+    height: 23px;
+    background-position: -320px -5px;
+}
+
+.sprite-announ-arrow-left {
+    width: 29px;
+    height: 22px;
+    background-position: -389px -5px;
+}
+
+.sprite-announ-arrow-right {
+    width: 26px;
+    height: 22px;
+    background-position: -428px -5px;
+}
+
+.sprite-contact-person {
+    width: 93px;
+    height: 93px;
+    background-position: -389px -37px;
+}
+
+.sprite-customer-person {
+    width: 106px;
+    height: 93px;
+    background-position: -5px -140px;
+}
+
+.sprite-dash-search-blue {
+    width: 39px;
+    height: 31px;
+    background-position: -121px -140px;
+}
+
+.sprite-dash-search-green {
+    width: 37px;
+    height: 26px;
+    background-position: -170px -140px;
+}
+
+.sprite-didyouknow-arrow-left-grey {
+    width: 35px;
+    height: 66px;
+    background-position: -217px -140px;
+}
+
+.sprite-didyouknow-arrow-left-org {
+    width: 35px;
+    height: 66px;
+    background-position: -262px -140px;
+}
+
+.sprite-didyouknow-arrow-right-grey {
+    width: 33px;
+    height: 66px;
+    background-position: -307px -140px;
+}
+
+.sprite-didyouknow-arrow-right-org {
+    width: 33px;
+    height: 66px;
+    background-position: -350px -140px;
+}
+
+.sprite-footer-arrow-blue {
+    width: 28px;
+    height: 17px;
+    background-position: -464px -5px;
+}
+
+.sprite-footer-facebook {
+    width: 16px;
+    height: 24px;
+    background-position: -492px -32px;
+}
+
+.sprite-footer-foursquare {
+    width: 16px;
+    height: 24px;
+    background-position: -5px -66px;
+}
+
+.sprite-footer-pfp {
+    width: 42px;
+    height: 36px;
+    background-position: -393px -140px;
+}
+
+.sprite-footer-twitter {
+    width: 16px;
+    height: 24px;
+    background-position: -31px -66px;
+}
+
+.sprite-footer-youtube {
+    width: 16px;
+    height: 24px;
+    background-position: -57px -66px;
+}
+
+.sprite-nav-chat-blue {
+    width: 87px;
+    height: 59px;
+    background-position: -393px -186px;
+}
+
+.sprite-nav-chat-green {
+    width: 90px;
+    height: 59px;
+    background-position: -5px -255px;
+}
+
+.sprite-nav-dash-blue {
+    width: 78px;
+    height: 83px;
+    background-position: -105px -255px;
+}
+
+.sprite-nav-dash-green {
+    width: 74px;
+    height: 78px;
+    background-position: -193px -255px;
+}
+
+.sprite-nav-graph-blue {
+    width: 64px;
+    height: 56px;
+    background-position: -277px -255px;
+}
+
+.sprite-nav-graph-green {
+    width: 70px;
+    height: 60px;
+    background-position: -351px -255px;
+}
+
+.sprite-nav-paper-blue {
+    width: 43px;
+    height: 56px;
+    background-position: -431px -255px;
+}
+
+.sprite-nav-paper-green {
+    width: 92px;
+    height: 59px;
+    background-position: -277px -325px;
+}
+
+.sprite-nav-ppl-blue {
+    width: 60px;
+    height: 70px;
+    background-position: -431px -321px;
+}
+
+.sprite-nav-ppl-green {
+    width: 93px;
+    height: 60px;
+    background-position: -5px -401px;
+}
+
+.sprite-nav-shadows {
+    width: 510px;
+    height: 30px;
+    background-position: -518px -5px;
+}
+
+.sprite-nav-tag-blue {
+    width: 82px;
+    height: 69px;
+    background-position: -83px -45px;
+}
+
+.sprite-nav-tag-green {
+    width: 86px;
+    height: 59px;
+    background-position: -175px -45px;
+}
+
+.sprite-recom-bulb-green {
+    width: 28px;
+    height: 45px;
+    background-position: -271px -45px;
+}
+
+.sprite-recom-bulb-grey {
+    width: 28px;
+    height: 45px;
+    background-position: -309px -45px;
+}
+
+.sprite-recom-check-green {
+    width: 28px;
+    height: 44px;
+    background-position: -347px -45px;
+}
+
+.sprite-recom-check-grey {
+    width: 28px;
+    height: 44px;
+    background-position: -518px -45px;
+}
+
+.sprite-recom-paper-green {
+    width: 28px;
+    height: 45px;
+    background-position: -556px -45px;
+}
+
+.sprite-recom-paper-grey {
+    width: 28px;
+    height: 45px;
+    background-position: -594px -45px;
+}
+
+.sprite-recom-paper2-green {
+    width: 28px;
+    height: 43px;
+    background-position: -632px -45px;
+}
+
+.sprite-recom-paper2-grey {
+    width: 28px;
+    height: 43px;
+    background-position: -670px -45px;
+}
+
+.sprite-tasks-num1-green {
+    width: 28px;
+    height: 31px;
+    background-position: -708px -45px;
+}
+
+.sprite-tasks-num1-grey {
+    width: 33px;
+    height: 29px;
+    background-position: -746px -45px;
+}
+
+.sprite-tasks-num2-green {
+    width: 28px;
+    height: 30px;
+    background-position: -789px -45px;
+}
+
+.sprite-tasks-num2-grey {
+    width: 33px;
+    height: 28px;
+    background-position: -827px -45px;
+}
+
+.sprite-tasks-num3-green {
+    width: 27px;
+    height: 32px;
+    background-position: -870px -45px;
+}
+
+.sprite-tasks-num3-grey {
+    width: 33px;
+    height: 31px;
+    background-position: -907px -45px;
+}
+
+.sprite-tasks-num4-green {
+    width: 27px;
+    height: 28px;
+    background-position: -950px -45px;
+}
+
+.sprite-tasks-num4-grey {
+    width: 32px;
+    height: 28px;
+    background-position: -987px -45px;
+}
+
+.sprite-tasks-person-1-blue {
+    width: 64px;
+    height: 31px;
+    background-position: -950px -83px;
+}
+
+.sprite-tasks-person-1-grey {
+    width: 63px;
+    height: 31px;
+    background-position: -492px -124px;
+}
+
+.sprite-tasks-person-2-blue {
+    width: 69px;
+    height: 38px;
+    background-position: -565px -124px;
+}
+
+.sprite-tasks-person-2-grey {
+    width: 63px;
+    height: 38px;
+    background-position: -644px -124px;
+}
+
+.sprite-tasks-person-3-blue {
+    width: 69px;
+    height: 32px;
+    background-position: -717px -124px;
+}
+
+.sprite-tasks-person-3-grey {
+    width: 63px;
+    height: 34px;
+    background-position: -796px -124px;
+}
+
+.sprite-tasks-person-4-blue {
+    width: 69px;
+    height: 41px;
+    background-position: -869px -124px;
+}
+
+.sprite-tasks-person-4-grey {
+    width: 65px;
+    height: 36px;
+    background-position: -948px -124px;
+}
+
+.sprite-tasks-settings {
+    width: 38px;
+    height: 37px;
+    background-position: -490px -170px;
+}
+
+.sprite-tasks-settings-green {
+    width: 38px;
+    height: 37px;
+    background-position: -717px -170px;
+}
+
+.sprite-top-help {
+    width: 20px;
+    height: 20px;
+    background-position: -827px -83px;
+}
+
+.sprite-top-help-navy {
+    width: 31px;
+    height: 20px;
+    background-position: -765px -170px;
+}
+
+.sprite-top-mini {
+    width: 100px;
+    height: 20px;
+    background-position: -538px -175px;
+}
+
+.sprite-top-settings {
+    width: 26px;
+    height: 20px;
+    background-position: -806px -170px;
+}
+
+.sprite-top-settings-navy {
+    width: 32px;
+    height: 24px;
+    background-position: -948px -170px;
+}
+
+.sprite-top-spacer {
+    width: 13px;
+    height: 30px;
+    background-position: -842px -170px;
+}
